@@ -1,0 +1,10 @@
+.appContainer {
+  padding: 0 1em;
+}
+
+@media (min-width: calc( 590px + 2em)) {
+  .appContainer {
+    padding: 0;
+    width: 570px;
+  }
+}

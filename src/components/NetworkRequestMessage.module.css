@@ -1,0 +1,14 @@
+.messageContainer {
+  text-transform: uppercase;
+  padding-top: 4.5em;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.error {
+  color: #cc0003;
+}
+
+.loading {
+  color: #646464;
+}

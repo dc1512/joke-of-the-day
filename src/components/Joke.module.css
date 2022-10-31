@@ -1,0 +1,5 @@
+.jokeContainer {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}

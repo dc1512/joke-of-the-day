@@ -1,0 +1,36 @@
+.jokePara::before,
+.jokePara::after {
+  line-height: 0.8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16rem;
+  color: #eee;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  line-height: 0.6; 
+}
+
+.jokePara {
+  position: relative;
+  padding: 0 3rem;
+  font-size: 1.4rem;
+}
+
+.punchLinePara {
+  text-align: right;
+}
+
+.setupPara::before {
+  content: "“";
+  left: 0;
+}
+
+.punchLinePara::after {
+  content: "”";
+  top: 0;
+  right: 0;
+}
+
+.jokeLineContainer {
+  padding: 3rem 0;
+}
